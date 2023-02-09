@@ -1,16 +1,16 @@
+<script setup>
+import MainSearch from './MainSearch.vue'
+</script>
+
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/other">Other</RouterLink>
-  </nav>
+  <div class="wrapper">
+    <MainSearch />
+    <h1>Hello There</h1>
+  </div>
 </template>
 
-<style lang="postcss" scoped>
-nav {
-  @apply flex justify-center space-x-4;
-
-  & .router-link-active {
-    @apply underline underline-offset-4;
-  }
+<style scoped lang="postcss">
+.wrapper {
+  @apply container mx-auto flex flex-col gap-4 py-4;
 }
 </style>

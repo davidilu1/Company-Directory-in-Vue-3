@@ -26,7 +26,7 @@ nav {
     @apply container mx-auto flex w-full items-center justify-between;
     .brand {
       &-title {
-        @apply text-2xl font-bold text-yellow-500;
+        @apply text-2xl font-bold text-gray-300;
       }
     }
     .menu {

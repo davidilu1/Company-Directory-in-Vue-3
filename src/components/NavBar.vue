@@ -12,7 +12,6 @@ const brand = ref('🏢 Fake Company Directory')
       <div class="menu">
         <a href="#" class="menu-item">Departments</a>
         <a href="#" class="menu-item">Settings</a>
-        <a href="#" class="menu-item">Contact</a>
         <a href="#" class="menu-login">Logout</a>
       </div>
     </div>
@@ -26,7 +25,7 @@ nav {
     @apply container mx-auto flex w-full items-center justify-between;
     .brand {
       &-title {
-        @apply text-2xl font-bold text-gray-300;
+        @apply text-2xl font-bold text-yellow-500;
       }
     }
     .menu {

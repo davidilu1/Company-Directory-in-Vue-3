@@ -1,7 +1,7 @@
 <script setup>
-import MainCards from '/Users/davidilunga/Desktop/projects/Company-Directory-in-Vue-3/src/components/Maincards.vue'
-import MainPagination from '/Users/davidilunga/Desktop/projects/Company-Directory-in-Vue-3/src/components/MainPagination.vue'
-import MainSearch from '/Users/davidilunga/Desktop/projects/Company-Directory-in-Vue-3/src/components/MainSearch.vue'
+  import MainCards from '/components/Maincards.vue'
+  import MainPagination from './MainPagination.vue'
+  import MainSearch from './MainSearch.vue'
 </script>
 
 <template>
